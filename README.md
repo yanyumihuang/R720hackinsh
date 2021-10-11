@@ -7,3 +7,5 @@
 触摸板驱动使用voodoops2系列。白果手势均可使用  
 本项目主要来自[jonny-china](https://github.com/Jonny-china/R720-15IKBN-Hackintosh/tree/10.15)的配置在此基础上完善了睡眠和数字小键盘。  
 如果睡眠不正常，请执行以下命令sudo pmset -a hibernatemode 0和sudo pmset -b hibernatemode 0。如果要使用USB网卡或者无线鼠标接收器请使用hackintool将对应的USB端口设置为内建即internal。
+
+如果发现关于本机—系统报告—电源，里面有很多计划事件，可以尝试关闭屏幕使用时间和删除自带的提醒事项APP，然后执行sudo pmset schedule cancelall
